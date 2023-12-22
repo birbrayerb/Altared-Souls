@@ -6,7 +6,7 @@ import { WalletAdapterNetwork,WalletNotConnectedError } from '@solana/wallet-ada
 import dynamic from "next/dynamic";
 import { useState, useEffect, useMemo } from "react";
 import { Connection, clusterApiUrl, Keypair, PublicKey, LAMPORTS_PER_SOL } from "@solana/web3.js";
-import Image from 'next/image'
+import Image from 'next/image';
 //import { Metadata } from "@metaplex-foundation/mpl-token-metadata";
 // Dynamically import components
 const NftSelect = dynamic(() => import("./components/NftSelect"), {
